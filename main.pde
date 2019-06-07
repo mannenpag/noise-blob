@@ -11,7 +11,7 @@ void setup() {
 void draw() {
   for (int i = 0; i < 5; i++){
     blob( 20+cCount+i*20, 255-(i+cCount*20));
-  }  
+  }
   if (frameCount % 60 == 0){
      cCount++;
   }
